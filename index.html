@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <title>MDC - Hotel HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-white p-0">
+    
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark px-0 stay">
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                    <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <img class="navbar-logo-img" src="img/logo.png" alt="MDC Logo">
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-white d-none d-lg-flex">
+                        <div class="col-lg-7 px-5 text-end">
+                            <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                                <i class="fa fa-envelope text-primary me-2"></i>
+                                <p class="mb-0">info@example.com</p>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-2">
+                                <i class="fa fa-phone-alt text-primary me-2"></i>
+                                <p class="mb-0">+0172215955</p>
+                             
+                                <i class="fa fa-phone-alt text-primary pl-2 me-2" style="margin-left:20px ;"></i><p class="mb-0">0559552455</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 px-5 text-start">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <a class="me-3" href="snapchat.com/mdcd.ksa"><i class="fab fa-snapchat"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        <a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <h1 class="m-0 text-primary text-uppercase">MDC</h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                                <!-- <a href="about.html" class="nav-item nav-link">عنا</a> -->
+                           
+                                <a href="room.html" class="nav-item nav-link">معرضنا</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown">أعمالنا</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="bookings.php" class="dropdown-item">خيالي 1</a>
+                                        <a href="team.html" class="dropdown-item">خيالي 2</a>
+                                        <a href="testimonial.html" class="dropdown-item">MDCفندق</a>
+                                        <a href="testimonial.html" class="dropdown-item">منتجع بيلا</a>
+                                    </div>
+                                </div>
+                                <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       
+<video class="w-100 h-100" src="vids/1.mp4" autoplay="autoplay" muted controls="visually-hidden" playsinline loop></video>
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 600px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">فندق خيالي 1</h6>
+                                <h1 class="display-6 text-white mb-4 animated slideInDown">
+            ليس مجرد منتجع، كن جاهزاً لتجربة الرفاهية بكلّ حواسّك
+                                    </h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">تفقد معرض الصور</a>
+                                <a href="#reserve" class="btn btn-light py-md-3 px-md-5 animated slideInRight">إحجز معنا</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="w-100" src="vids/3.mp4" autoplay loop muted controls="visually-hidden" playsinline></video>
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">فندق خيالي 2</h6>
+                                <h1 class="display-6 text-white mb-4 animated slideInDown">أطلق العنان للرفاهية في خيالي 2</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Booking Start -->
+        <div class="container-fluid booking pb-5 wow fadeIn"  data-wow-delay="0.1s">
+            
+            <div class="container" id="reserve">
+                <form action="" method="post">
+                <div class="bg-white shadow" style="padding: 35px;">
+                    <div class="row g-2">
+                        <div class="col-md-12">
+                            <div class="row g-2">
+                                <div class="col-md-3">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input"
+                                            placeholder="تاريخ الدخول" data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="تاريخ الخروج" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>عدد الأفراد...</option>
+                                        <option value="1">فرد</option>
+                                        <option value="2">فردان</option>
+                                        <option value="3">٣ أفراد</option>
+                                        <option value="4">٤ أفراد</option>
+                                        <option value="5">٥ أفراد</option>
+                                        <option value="6">٦ أفراد</option>
+                                        <option value="7">٧ أفراد</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>عدد الأطفال</option>
+                                        <option value="0">بدون أطفال</option>
+                                        <option value="1">طفل</option>
+                                        <option value="2">طفلان</option>
+                                        <option value="3">أكثر من طفلان</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control" placeholder="البريد الإلكتروني">
+                                </div>
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control" placeholder="الهاتف المحمول">
+                                  <small id="passwordHelpBlock" class="form-text text-muted">
+                                الرجاء كتابة كود الدوله يتبعه رقم الهاتف المحمول
+                                  </small>
+                                </div>
+                              </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100">تأكيد الحجز</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+
+        <!-- About Start -->
+        <div class=" py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 rtl">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/khayaly2/a5d423f5-0695-47b2-ba4e-0056bf0fe652.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/khayaly2/22a44564-dbb3-44da-96a6-1fac49f29c8b.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/khayaly2/8c912380-9ebb-4002-97b9-444cd7e28753.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/khayaly2/89811ef2-e714-4383-a382-e4129e896034.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" dir="rtl">
+                        <h6 class="section-title text-start text-primary text-uppercase">عنا</h6>
+                        <h1 class="mb-4">أهلاً بكم في <span class="text-primary text-uppercase">MDC</span></h1>
+                        <p class="mb-4">لطالما كان النجاح حليفاً لكلّ باحثٍ عن الإبداع منذ الخطوة الأولى وحتى نهاية المطاف، وهذا ما قدّمته MDC باعتبارها الحاضنة الرئيسية لمشاريعنا المختلفة في المجال العقاري والسياحي والصحي بالإضافة إلى المنتجعات والشاليهات والشقق الفندقية:</p>
+                   
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">إكتشف المزيد</a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Room Start -->
+        <div class=" py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">مشاريعنا</h6>
+                    <h1 class="mb-5"><span class="text-primary text-uppercase">MDC</span> إكتشف جميع مشاريع </h1>
+                </div>
+                <div class="row g-4 projects">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/khayaly1/room.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">خيالي 1
+
+                                </small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">غرف النوم</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3" style="direction:ltr;">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>خدمة الغرف</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-shopping-basket text-primary me-2"></i>جميع المستلزمات</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>واي فاي</small>
+                                </div>
+                                <p class="text-body mb-3"> نهتم بأدق التفاصيل لنوفر لكم كل ما هو جديد. غرف النوم مهيأه و مخصصه لراحتكم </p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">قم بالحجز</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">تفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/khayaly2/6ee52fca-97a5-4208-98c4-4831c292dab6.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">خيالي 2</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">الخلاء</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3" style="direction:ltr;">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-glass-martini text-primary me-2"></i>خدمة مستمره</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-briefcase text-primary me-2"></i>بيئة عمل مناسبه</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>واي فاي</small>
+                                </div>
+                                <p class="text-body mb-3"> ليس فقط إهتمام بالراحه و الإستجمام و لكن أيضاً لتنجز جميع أعمالك بعيداً عن أي ضوضاء</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">قم بالحجز</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">تفاصيل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/spa/hilton-pyramids-spa-cairo.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">قريباً</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">منتجع بيلا</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3" style="direction:ltr;">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-hand-holding-heart text-primary me-2"></i>عنايئة فائقة </small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-feather  text-primary me-2"></i>راحه ليس لها مثيل</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>واي فاي</small>
+                                </div>
+                                <p class="text-body mb-3">لأننا نسعى دائماً لراحتكم, بدأنا في إنشاء منتجع بيلا الصحي لتوفير جميع سبل الإستجمام.</p>
+                              
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">ترقبوا الإفتتاح قريباً</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Room End -->
+
+
+        <!-- Video Start -->
+        <div class=" py-5 px-0 wow zoomIn intro" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <h6 class="section-title text-start text-white text-uppercase mb-3">اختلافنا سرّ تميزنا</h6>
+                        <h1 class="text-white mb-4">إكتشف الكثير عنا</h1>
+                        <p class="text-white mb-4">منتجعنا ليس وليد لحظة ما، بل هو تجسيد لفكرة سياحية تفوق التوقعات، وهذا ما ستراه مع باقة من مميزاتنا!<br>
+                            يتميّز منتجعنا بوجوده في قلب المنطقة الخدمية حيث المطاعم والكافيات المحلية والعالمية وكذلك مراكز الخدمة المفتوحة طوال اليوم مما يوفر عليك الوقت والجهد لتستثمر تلك اللحظات لراحتك واستجمامك!
+                        </p>
+                        <a href="#header-carousel" class="btn btn-primary py-md-3 px-md-5 me-3">إحجز معنا</a>
+                        <a href="room.html" class="btn btn-light py-md-3 px-md-5">تفقد معرض صورنا لمعرفة المزيد</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="vids/3.mp4" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">خيالي 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Start -->
+
+
+        <!-- Service Start -->
+        <div class=" py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">خدماتنا المتنوعه</h6>
+                    <h1 class="mb-5"><span class="text-primary text-uppercase">MDC</span> تعرف على ما نقدمه في مشاريع </h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-hotel fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">فنادقنا في كل مكان و نتوسع</h5>
+                          
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-utensils fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">الضمان و الجوده</h5>
+                          
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-spa fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">منتجعاتنا و الإهتمام بالصحه</h5>
+                          
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-swimmer fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">حمامات سباحه و مساحات خضراء</h5>
+                          
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-glass-cheers fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">الترف و الرفاهيه</h5>
+                          
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-dumbbell fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">الرياضه و التغذية</h5>
+                          
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Testimonial Start -->
+        <div class=" testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p> كانت اقامة رائعه ومكان نظيف ومريح والموظفين تعاملهم اكثر من رائع خصوصا ابو حمزه</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/avatar.svg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">راشد</h6>
+                                <a href="https://www.booking.com/hotel/sa/fantasy-furnished-units.ar.html#tab-reviews"><small>Booking.com</small></a>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>محل اقامه ممتاز طاقم عمل رائع الاستقبال ممتاز
+                            الخدمات ممتازه
+                            انصح به العائله الصغيره النظافه ممتازه</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/avatar.svg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">محمد</h6><a href="https://www.booking.com/hotel/sa/fantasy-furnished-units.ar.html#tab-reviews"><small>Booking.com</small></a>
+                                
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>فندق رائع جداً و ممتاز و مناسب في الأسعر للحميع</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/avatar.svg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">حسين رائد</h6>
+                              <a href="https://fantasy-resort-khamis-mushait.albooked.com/"><small>albooked.com</small></a>  
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+      
+        <!-- Team End -->
+
+
+        <!-- Newsletter Start -->
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 border rounded p-1">
+                    <div class="border rounded text-center p-1">
+                        <div class="bg-white rounded text-center p-5">
+                            <h4 class="mb-4"> تابع معنا<span class="text-primary text-uppercase"> أخبارنا</span></h4>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="أدخل بريدك الإلكتروني">
+                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">تأكيد</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Start -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-primary rounded p-4">
+                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">MDC</h1></a>
+                            <p class="text-white mb-0">
+								سلاسل نجاحنا ليس لها مثيل <br>نتطلع دائماً لخدمتكم و ننتظركم في أقرب وقت 
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/mdc-ksa-0637b4235/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">MDC</a>, All Right Reserved. 
+							
+					
+							Designed By <a class="border-bottom" href="https://thefirstexhibitor.com">The First Exhibitor</a>
+                            <br>Distributed By: <a class="border-bottom" href="https://www.linkedin.com/in/omarelassal/" target="_blank">Omar Alassal</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
